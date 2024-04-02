@@ -5,7 +5,7 @@ if (revealed == true)
     {
         if (scr_returnamtneartype("bomb") > 0)
         {
-            draw_sprite_ext(spr_tilenumbers,scr_returnamtneartype("bomb"),x,y,0.5,0.5,0,c_red,1)
+            draw_sprite_ext(spr_tilenumbers,scr_returnamtneartype("bomb"),x,y,0.5,0.5,0,c_maroon,1)
         }
     }
     if (type == "bomb")
