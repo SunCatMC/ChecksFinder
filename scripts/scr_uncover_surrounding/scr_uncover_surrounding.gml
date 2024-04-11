@@ -1,13 +1,14 @@
-function scr_uncoversurrounding() {
+function scr_uncover_surrounding() {
 	with (instance_position(x,y-16,obj_tile))
 	{
 	    if (type == "none" && revealed == false)
 	    {
 	        revealed = true
 	        marked = false
-	        if (scr_returnamtneartype("bomb") == 0)
+			scr_gen_particles(x,y,0)
+	        if (scr_return_amt_near_type("bomb") == 0)
 	        {
-	            scr_uncoversurrounding()
+	            scr_uncover_surrounding()
 	        }
 	    }
 	}
@@ -17,9 +18,10 @@ function scr_uncoversurrounding() {
 	    {
 	        revealed = true
 	        marked = false
-	        if (scr_returnamtneartype("bomb") == 0)
+			scr_gen_particles(x,y,0)
+	        if (scr_return_amt_near_type("bomb") == 0)
 	        {
-	            scr_uncoversurrounding()
+	            scr_uncover_surrounding()
 	        }
 	    }
 	}
@@ -29,9 +31,10 @@ function scr_uncoversurrounding() {
 	    {
 	        revealed = true
 	        marked = false
-	        if (scr_returnamtneartype("bomb") == 0)
+			scr_gen_particles(x,y,0)
+	        if (scr_return_amt_near_type("bomb") == 0)
 	        {
-	            scr_uncoversurrounding()
+	            scr_uncover_surrounding()
 	        }
 	    }
 	}
@@ -41,9 +44,10 @@ function scr_uncoversurrounding() {
 	    {
 	        revealed = true
 	        marked = false
-	        if (scr_returnamtneartype("bomb") == 0)
+			scr_gen_particles(x,y,0)
+	        if (scr_return_amt_near_type("bomb") == 0)
 	        {
-	            scr_uncoversurrounding()
+	            scr_uncover_surrounding()
 	        }
 	    }
 	}
@@ -53,9 +57,10 @@ function scr_uncoversurrounding() {
 	    {
 	        revealed = true
 	        marked = false
-	        if (scr_returnamtneartype("bomb") == 0)
+			scr_gen_particles(x,y,0)
+	        if (scr_return_amt_near_type("bomb") == 0)
 	        {
-	            scr_uncoversurrounding()
+	            scr_uncover_surrounding()
 	        }
 	    }
 	}
@@ -65,9 +70,10 @@ function scr_uncoversurrounding() {
 	    {
 	        revealed = true
 	        marked = false
-	        if (scr_returnamtneartype("bomb") == 0)
+			scr_gen_particles(x,y,0)
+	        if (scr_return_amt_near_type("bomb") == 0)
 	        {
-	            scr_uncoversurrounding()
+	            scr_uncover_surrounding()
 	        }
 	    }
 	}
@@ -77,9 +83,10 @@ function scr_uncoversurrounding() {
 	    {
 	        revealed = true
 	        marked = false
-	        if (scr_returnamtneartype("bomb") == 0)
+			scr_gen_particles(x,y,0)
+	        if (scr_return_amt_near_type("bomb") == 0)
 	        {
-	            scr_uncoversurrounding()
+	            scr_uncover_surrounding()
 	        }
 	    }
 	}
@@ -89,9 +96,10 @@ function scr_uncoversurrounding() {
 	    {
 	        revealed = true
 	        marked = false
-	        if (scr_returnamtneartype("bomb") == 0)
+			scr_gen_particles(x,y,0)
+	        if (scr_return_amt_near_type("bomb") == 0)
 	        {
-	            scr_uncoversurrounding()
+	            scr_uncover_surrounding()
 	        }
 	    }
 	}
